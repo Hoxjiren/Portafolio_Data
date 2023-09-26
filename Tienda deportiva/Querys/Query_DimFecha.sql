@@ -2,7 +2,7 @@
 SELECT 
   [DateKey] AS [ID Fecha], 
   [FullDateAlternateKey] AS Date, 
-  --,[DayNumberOfWeek] 
+  --,[DayNumberOfWeek] --comentamos sobre las columnas para elegir solo las que utilizaremos
   [EnglishDayNameOfWeek] AS Day, 
   [SpanishDayNameOfWeek] AS Dia, 
   LEFT([SpanishDayNameOfWeek], 3) AS DiaCorto, 
@@ -16,7 +16,7 @@ SELECT
   --,[FrenchMonthName]
   [MonthNumberOfYear] AS MesNr, 
   [CalendarQuarter] AS Cuatrimestre, 
-  [CalendarYear] AS Año --,[CalendarSemester]
+  [CalendarYear] AS AÃ±o --,[CalendarSemester]
   --,[FiscalQuarter]
   --,[FiscalYear]
   --,[FiscalSemester]
